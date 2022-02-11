@@ -19,7 +19,7 @@ jobs:
       run: npm i
     - name: Get the data and analyze
       run: |
-        download-lidar-hd.js
+        node download-lidar-hd.js
       shell: bash
     - name: Commit and push if it changed
       run: |-
